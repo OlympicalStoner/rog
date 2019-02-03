@@ -1,0 +1,25 @@
+{
+  "rog:FieryOrb" : {
+    "NAME" : "Fiery Orb",
+    "FLAVOR" : "Energy can be felt from the floating orb, generating ever larger flames beneath it.",
+    "DESCRIPTIONS" : [
+      "Start with one extra [E] for every 8 battles fought after pickup."
+    ]
+  },
+
+  "rog:HeroBlade" : {
+    "NAME" : "Hero's Blade",
+    "FLAVOR" : "An ancient blade wieldable only by heroes. Said to grow with its wielder's experience.",
+    "DESCRIPTIONS" : [
+      "Start battles with one strength per 6 victories achieved after obtaining this relic."
+    ]
+  },
+
+  "rog:HealStaff" : {
+    "NAME" : "Staff of Nature",
+    "FLAVOR" : "A staff holding a fragment of Gaia's core. Imbued with Gaia's spirit, it increasingly heals its wielder as their exhaustion rises.",
+    "DESCRIPTIONS" : [
+      "Restores one health at the start of a battle for every 3rd victory achieved after claiming this relic."
+    ]
+  }
+}

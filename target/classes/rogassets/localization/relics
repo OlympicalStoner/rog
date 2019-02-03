@@ -1,0 +1,7 @@
+{
+  "NAME" : "rog:FieryOrb",
+  "FLAVOR" : "Energy can be felt from the floating orb, generating ever larger flames beneath it.",
+  "DESCRIPTIONS" : [
+    "Start with one extra [E] for every 20 battles fought after pickup."
+  ]
+}
