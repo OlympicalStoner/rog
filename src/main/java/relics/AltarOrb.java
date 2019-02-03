@@ -24,7 +24,7 @@ public class AltarOrb extends AbstractGrowthRelic implements PostEnergyRechargeS
             AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
         }
     }
-    
+
 
 
     public AltarOrb(){
