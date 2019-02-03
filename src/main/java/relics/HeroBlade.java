@@ -14,6 +14,8 @@ public class HeroBlade extends AbstractGrowthRelic{
     public static AbstractRelic.LandingSound PICKUP = AbstractRelic.LandingSound.SOLID;
     public static int BATTLES_TO_LEVEL = 6;
 
+
+
     @Override
     public void atBattleStart(){
         if(this.counter > 0){
@@ -22,6 +24,8 @@ public class HeroBlade extends AbstractGrowthRelic{
             AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new StrengthPower(AbstractDungeon.player, this.counter), 1));
         }
     }
+
+
 
     public HeroBlade(){
         super(ID, IMG, IMG_OTL, RARITY, PICKUP, BATTLES_TO_LEVEL);

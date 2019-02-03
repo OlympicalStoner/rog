@@ -13,6 +13,8 @@ public class HealStaff extends AbstractGrowthRelic {
     public static LandingSound PICKUP = LandingSound.MAGICAL;
     public static int BATTLES_TO_LEVEL = 3;
 
+
+
     @Override
     public void atBattleStart(){
         this.flash();
@@ -22,6 +24,8 @@ public class HealStaff extends AbstractGrowthRelic {
             p.heal(this.counter);
         }
     }
+
+
 
     public HealStaff(){ super(ID, IMG, IMG_OTL, RARITY, PICKUP, BATTLES_TO_LEVEL); }
 

@@ -14,6 +14,8 @@ public class AltarOrb extends AbstractGrowthRelic implements PostEnergyRechargeS
     public static LandingSound PICKUP = LandingSound.MAGICAL;
     public static int BATTLES_TO_LEVEL = 8;
 
+
+
     @Override
     public void receivePostEnergyRecharge() {
         if(this.counter > 0){
@@ -22,9 +24,7 @@ public class AltarOrb extends AbstractGrowthRelic implements PostEnergyRechargeS
             AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
         }
     }
-
-
-
+    
 
 
     public AltarOrb(){

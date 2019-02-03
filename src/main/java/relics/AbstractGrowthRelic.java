@@ -9,8 +9,6 @@ public class AbstractGrowthRelic extends CustomRelic{
 
 
 
-
-
     @Override
     public void onEquip(){
         this.exp = 0;
@@ -26,7 +24,6 @@ public class AbstractGrowthRelic extends CustomRelic{
         ++this.exp;
         setLevel();
     }
-
 
 
 
