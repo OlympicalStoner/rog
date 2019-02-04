@@ -4,10 +4,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.localization.RelicStrings;
-import relics.AltarOrb;
-import relics.GrowthColor;
-import relics.HealStaff;
-import relics.HeroBlade;
+import relics.*;
 
 @SpireInitializer
 public class ROG implements EditRelicsSubscriber {
@@ -59,6 +56,16 @@ public class ROG implements EditRelicsSubscriber {
 
         BaseMod.addRelicToCustomPool(
                 new HealStaff(),
+                GrowthColor.ROG_SHARED
+        );
+
+        BaseMod.addRelicToCustomPool(
+                new AegisShield(),
+                GrowthColor.ROG_SHARED
+        );
+
+        BaseMod.addRelicToCustomPool(
+                new OdinHelmet(),
                 GrowthColor.ROG_SHARED
         );
     }
