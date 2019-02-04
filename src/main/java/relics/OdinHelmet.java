@@ -14,6 +14,7 @@ public class OdinHelmet extends AbstractGrowthRelic {
     public static int BATTLES_TO_LEVEL = 9;
 
 
+
     @Override
     public void atTurnStartPostDraw(){
         if(this.counter > 0){
@@ -22,6 +23,7 @@ public class OdinHelmet extends AbstractGrowthRelic {
             AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, this.counter));
         }
     }
+
 
 
     public OdinHelmet(){super(ID, IMG, IMG_OTL, RARITY, PICKUP, BATTLES_TO_LEVEL);}
