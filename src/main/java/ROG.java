@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.localization.RelicStrings;
 import relics.*;
 
 @SpireInitializer
-public class ROG implements EditRelicsSubscriber {
+public class ROG implements EditRelicsSubscriber{
 
     public static String ASSETS = "img";
 
@@ -68,5 +68,6 @@ public class ROG implements EditRelicsSubscriber {
                 new OdinHelmet(),
                 GrowthColor.ROG_SHARED
         );
+
     }
 }

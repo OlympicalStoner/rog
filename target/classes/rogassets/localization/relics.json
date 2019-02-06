@@ -21,5 +21,21 @@
     "DESCRIPTIONS" : [
       "Restores one health at the start of a battle for every 3rd victory achieved after claiming this relic."
     ]
+  },
+
+  "rog:AegisShield" : {
+    "NAME" : "Shield of Valor",
+    "FLAVOR" : "An ancient shield said to have protected a city under siege by dragons. Generates a barrier proportional to the wielder's sense of duty and justice.",
+    "DESCRIPTIONS" : [
+      "Gain one dexterity at the beginning of battle for every 8th victory since picking up this relic."
+    ]
+  },
+
+  "rog:OdinHelmet" : {
+    "NAME" : "Helmet of Knowledge",
+    "FLAVOR" : "A helmet imbued with the soul of the norse god Odin, known for his vast wisdom.",
+    "DESCRIPTIONS" : [
+      "Draw one extra card at the beginning of the turn for every 9th victory since pickup."
+    ]
   }
 }

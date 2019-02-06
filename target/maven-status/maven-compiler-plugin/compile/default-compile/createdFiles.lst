@@ -1,7 +1,9 @@
+ROG.class
+relics\AltarOrb.class
+relics\AegisShield.class
 relics\GrowthColor.class
 relics\GrowthLibrary.class
 relics\HealStaff.class
-ROG.class
 relics\HeroBlade.class
-relics\AltarOrb.class
-relics\AbstractGrowthRelic.class
+relics\OdinHelmet.class
+relics\CommonMethods.class
